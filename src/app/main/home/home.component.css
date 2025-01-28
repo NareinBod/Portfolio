@@ -1,0 +1,49 @@
+.main {
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+#line1{
+    color: #64FFDA;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.main h1 {
+    color: #e6f1ff;
+    font-family: 'Inter', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#second {
+    color: #8892b0;
+}
+
+.paragraph {
+    margin-top: 35px;
+    margin-bottom: 35px ;
+    justify-content: center;
+    margin-right: 800px;
+    color: #8892b0;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    margin-top: 15px;
+    background: none;
+    color: #64FFDA;
+    height: 75px;
+    width: 150px;
+    text-align: center;
+    word-spacing: 3px;
+    border-color: #64FFDA;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #64FFDA;
+    color: #000000;
+}
