@@ -47,3 +47,7 @@ button:hover {
     background-color: #64FFDA;
     color: #000000;
 }
+
+ a {
+    text-decoration: none;
+ }
