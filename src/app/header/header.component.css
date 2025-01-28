@@ -1,5 +1,6 @@
 img {
     height: 50px;
+    margin-left: 20px;
 }
 
 .header {
@@ -23,6 +24,7 @@ img {
     font-size: larger;
 }
 
-button:hover {
+.nav-links a:hover {
     color: wheat;
 }
+
