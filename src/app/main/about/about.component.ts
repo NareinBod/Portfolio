@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+  skills: string[] = ["Python", "C++", "JavaScript", "TypeScript", "MySQL", "HTML" ,"CSS", "Matlab", "VBA", "LabView", "Angular", "Numpy", "Pandas", "Matplotlib", "OpenAPI", "Git", "GitHub"]
 
 }
