@@ -5,6 +5,10 @@ img {
     margin-top: 20px;
 }
 
+img:hover {
+    transform: scale(1.2);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
