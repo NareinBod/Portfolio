@@ -25,6 +25,7 @@ img {
     border: none;
     cursor: pointer;
     font-size: larger;
+    transform: scale(1.2);
 }
 
 .nav-links a:hover {
