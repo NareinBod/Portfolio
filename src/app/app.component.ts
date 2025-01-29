@@ -7,7 +7,7 @@ import { AboutComponent } from './main/about/about.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterModule, RouterOutlet, SidebarComponent, HeaderComponent, HomeComponent, AboutComponent],
+  imports: [RouterModule, RouterOutlet, SidebarComponent, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
