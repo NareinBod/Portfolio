@@ -1,7 +1,8 @@
 img {
-    height: 70px;
+    height: 100px;
     margin-left: 26px;
     border-radius: 50px;
+    margin-top: 20px;
 }
 
 .header {
@@ -14,6 +15,7 @@ img {
 .nav-links {
     display: flex;
     gap: 50px;
+    margin-right: 20px;
 }
 
 .nav-links a{
@@ -27,5 +29,20 @@ img {
 
 .nav-links a:hover {
     color: wheat;
+    text-decoration: underline;
 }
 
+button {
+    background-color: #0a192f ;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    border-color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}

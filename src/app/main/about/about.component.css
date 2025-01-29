@@ -4,8 +4,9 @@ h1 {
 }
 
 p {
-    color: #8892b0;
-    margin-right: 200px; 
+    color: #e6f1ff;
+    margin-right: 200px;
+    font-family: 'Inter', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
 .body {
@@ -42,3 +43,7 @@ button {
     height: 30px;
 }
 
+button:hover {
+    background-color: #64FFDA;
+    color: black;
+}
