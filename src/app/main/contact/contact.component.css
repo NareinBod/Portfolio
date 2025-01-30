@@ -2,42 +2,59 @@ h1 {
     font-size: 50px;
     color: #64FFDA;
     margin-bottom: 20px;
-    margin-left: 300px;
+    margin-left: -590px;
+    text-align: center;
 }
 
 .contact {
     border-radius: 10px;
     background-color: #0a192f;
+    height: auto;
     margin-left: 300px;
-    width: fit-content;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #e6f1ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: #e6f1ff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-item.phone p,
-.contact-item.email a {
-    color: white;
+.contact-item p,
+.contact-item a {
+    color: #e6f1ff;
+    font-size: larger;
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-item.phone p:hover,
-.contact-item.email a:hover {
+.contact-item p:hover,
+.contact-item a:hover {
     color: #64FFDA;
     text-decoration: underline;
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #symbol {
     font-size: 20px;
     margin-right: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
