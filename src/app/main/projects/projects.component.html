@@ -1,0 +1,21 @@
+<div class="header">    
+    <h1>Projects</h1>
+    <div class="content">
+        @for (project of projects; track project) {
+            <div class="project-item">
+                <img src="{{project.img}}" alt="">
+                <div class="project-header">
+                    <h3>{{project.name}}</h3>
+                    <h5>{{project.date}}</h5>
+                </div>
+                <p>{{project.description}}</p>
+                <div class="skills">
+                    <button>{{project.skills[0]}}</button>
+                    <button>{{project.skills[1]}}</button>
+                    <button>{{project.skills[2]}}</button>
+                </div>
+                <button class="link"><a href="{{project.link}}" target="_blank">Check out this project!</a></button>
+            </div>
+        }
+    </div>
+</div>
